@@ -23,7 +23,11 @@ img {
 
 nav {
   width: 100%;
-  background: #108db8;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-top: 5px solid #108db8;
+  border-bottom: 5px solid #108db8;
 }
 
 nav a {
