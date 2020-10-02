@@ -7,7 +7,8 @@ function logoTitle () {
 	return (
 		<div className="container">
 			<img src={logo} className="img"/>
-			<h1>Soft Reliance</h1>
+			<h1 className="dark-blue">Soft</h1>
+			<h1 className="light-blue">Reliance Ltd</h1>
 		</div>
 	);
 }
