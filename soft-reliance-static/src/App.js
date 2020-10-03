@@ -22,6 +22,7 @@ function App() {
           <Link to="/about">About</Link>
           <Link to="/blog">Blog</Link>
           <Link to="/dynamic">Dynamic</Link>
+          <Link to="/dynamic" className="styledNavItem">Contact</Link>
         </div>
       </nav>
       <div className="content">
