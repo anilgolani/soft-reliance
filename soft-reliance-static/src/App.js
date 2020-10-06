@@ -20,7 +20,7 @@ function App() {
         <div className="container">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
-          <Link to="/blog">Blog</Link>
+          <Link to="/services">Services</Link>
           <Link to="/dynamic">Dynamic</Link>
           <Link to="/dynamic" className="styledNavItem">Contact</Link>
         </div>
