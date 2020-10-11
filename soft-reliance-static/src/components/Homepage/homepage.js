@@ -1,15 +1,16 @@
 import React from 'react';
 
 import './homepage.css';
-import CompanyInfoIsland from '../CompanyInfoIsland/companyInfoIsland.js';
-import AboutInfoIsland from '../AboutInfoIsland/aboutInfoIsland.js';
+import {companyInfo, aboutInfo, contactInfo} from './homepageData.js';
+import InfoIsland from '../InfoIsland/infoIsland.js';
+
 
 export default () => {
 	return (
 		<div className="homepage-container">
-		    <CompanyInfoIsland />
-		    <AboutInfoIsland />
-		    <CompanyInfoIsland />
+		    <InfoIsland data={companyInfo} />
+		    <InfoIsland data={aboutInfo} />
+		    <InfoIsland data={contactInfo} />
 		</div>
 	)
 }
