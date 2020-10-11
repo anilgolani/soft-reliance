@@ -1,0 +1,22 @@
+.info-island-container {
+	/*position: relative;*/
+}
+.info-island {
+	background-color: #fff;
+	height: 360px;
+	width: 1080px;
+	position: relative;
+}
+.block-element {
+	position: absolute;
+	content: "";
+	right: -15%;
+	top: 0;
+	height: 100%;
+	width: 20%;
+	background-color: inherit;
+	-webkit-transform: skewX(-15deg);
+	-moz-transform: skewX(-15deg);
+	-ms-transform: skewX(-15deg);
+	transform: skewX(-15deg);
+}

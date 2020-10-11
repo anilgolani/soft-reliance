@@ -27,7 +27,7 @@ nav {
   display: flex;
   justify-content: space-between;
   border-top: 5px;
-  border-bottom: 5px;
+  border-bottom: 0;
   border-style: solid;
   border-image: linear-gradient(to right, #1cb4bb, #2424bc) 1 100%;
   border-image-slice: 1;
@@ -58,8 +58,4 @@ nav a:hover {
 }
 .styledNavItem:hover {
   color: #fff;
-}
-
-.content {
-  padding: 1rem;
 }
