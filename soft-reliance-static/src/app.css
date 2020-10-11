@@ -49,6 +49,12 @@ nav a:hover {
   color: #1cb4bb;
 }
 .styledNavItem {
+  display: inline-block;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .05em;
   color: #fff;
   background: linear-gradient(to right, #1cb4bb, #2424bc);
   padding: 1rem;
