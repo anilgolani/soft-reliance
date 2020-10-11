@@ -19,9 +19,8 @@ function App() {
         <LogoTitle />
         <div className="container">
           <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="/about">About Us</Link>
           <Link to="/services">Services</Link>
-          <Link to="/dynamic">Dynamic</Link>
           <Link to="/dynamic" className="styledNavItem">Contact</Link>
         </div>
       </nav>
