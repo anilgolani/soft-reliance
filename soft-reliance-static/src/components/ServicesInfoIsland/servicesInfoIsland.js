@@ -5,7 +5,7 @@ export default function ServicesInfoIsland () {
 
 	return (
 		<div className="services-info-container">
-			<h1>Payroll master app</h1>
+			<h1>PayrollMasterApp</h1>
 		</div>
 	);
 };

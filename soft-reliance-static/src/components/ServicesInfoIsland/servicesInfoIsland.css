@@ -2,5 +2,13 @@
 	width: 50%;
 	background-color: #fff;
 	height: 360px;
-	margin: 48px auto 24px;
+	margin: 48px auto;
+	box-shadow: 10px 10px;
+	border-radius: 48px 48px;
+}
+.services-info-container h1 {
+	font-size: 48px;
+	background: linear-gradient(to right, #1cb4bb 0%, #2424bc 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
