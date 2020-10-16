@@ -1,11 +1,6 @@
 import React from 'react'
-import { useRouteData } from 'react-static'
-//
+import ServicesPage from 'components/ServicesPage/servicespage.js';
 
-export default function Services() {
-  return (
-    <div>
-      hi
-    </div>
-  )
-}
+export default () => (
+  <ServicesPage />
+);

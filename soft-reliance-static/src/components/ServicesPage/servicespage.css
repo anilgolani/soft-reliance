@@ -1,0 +1,6 @@
+.servicespage-container {
+	background-image: linear-gradient(to bottom, #1cb4bb, #2424bc);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
