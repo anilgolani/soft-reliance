@@ -23,15 +23,45 @@ img {
 
 nav {
   width: 100%;
-  background: #108db8;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-top: 5px;
+  border-bottom: 0;
+  border-style: solid;
+  border-image: linear-gradient(to right, #1cb4bb, #2424bc) 1 100%;
+  border-image-slice: 1;
+  border-left: 0;
+  border-right: 0;
 }
 
 nav a {
-  color: white;
+  color: #4a4949;
   padding: 1rem;
   display: inline-block;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .05em;
 }
-
-.content {
+nav a:hover {
+  color: #1cb4bb;
+}
+.styledNavItem {
+  display: inline-block;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: #fff;
+  background: linear-gradient(to right, #1cb4bb, #2424bc);
   padding: 1rem;
+  border-radius: 24px;
+  width: 120px;
+  text-align: center;
+}
+.styledNavItem:hover {
+  color: #fff;
 }

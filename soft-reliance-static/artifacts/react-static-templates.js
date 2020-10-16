@@ -7,6 +7,7 @@ export default {
 '__react_static_root__/src/pages/about.js': require('__react_static_root__/src/pages/about.js').default,
 '__react_static_root__/src/pages/blog.js': require('__react_static_root__/src/pages/blog.js').default,
 '__react_static_root__/src/pages/index.js': require('__react_static_root__/src/pages/index.js').default,
+'__react_static_root__/src/pages/services.js': require('__react_static_root__/src/pages/services.js').default,
 '__react_static_root__/src/containers/Post': require('__react_static_root__/src/containers/Post').default
 }
 
